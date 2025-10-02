@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 body {
     background-color: rgb(28, 28, 28);
     color: whitesmoke;
@@ -5,8 +9,10 @@ body {
 }
 
 .header {
-    background-color: red;
+    background-color: rgb(54, 2, 2);
     color: whitesmoke;
+    padding: 20px;
+    margin: 0px;
 }
 
 .header h2 {
@@ -18,7 +24,32 @@ body {
 }
 
 .hero {
+    height: 100vh;
+    padding: 35%;
+}
 
+.hero h1 {
+    font-size: 80px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(54, 2, 2);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    transition: 1s ease;
+}
+
+.hero a:hover {
+    background-color: rgb(35, 1, 1);
 }
 
 .products {
